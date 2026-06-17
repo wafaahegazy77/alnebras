@@ -359,6 +359,8 @@
             background-color: #fff;
             border-radius: 50%;
             margin-inline-end: 15px;
+            color: var(--primary);
+            font-size: 20px;
             .icon {
                 height: 20px;
                 object-fit: contain;
@@ -401,6 +403,16 @@
             margin-inline-end: 18px;
             &:hover {
                 color: var(--secondary) !important;
+            }
+        }
+
+        .mk {
+            a{
+                color: #B99350 !important;
+                &:hover {
+                    color: var(--secondary) !important;
+                    text-decoration: underline !important;
+                }
             }
         }
 
@@ -1633,10 +1645,10 @@
     .footer .foot {
         flex-wrap: wrap;
         justify-content: center;
-        * {
+        div , p {
             text-align: center;
-            width: 100%;
-
+            width: 100%;    
+            margin: 2px 0;
         }
     }
 
