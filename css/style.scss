@@ -1191,6 +1191,9 @@
 
 //start joinForm_sec
 .joinForm_sec {
+    .secImg {
+        object-fit: contain;
+    }
 
     .form_box {
         background-color: #fff;
@@ -1487,6 +1490,7 @@
     }
     .header::before {
         width: 100%;
+        background-image: linear-gradient(to right, #B2D7B8, #ffffffd1);
     }
     .header .txt_box .title  ,
     .pg_header .txt_box h2 {
@@ -1590,6 +1594,12 @@
 
     .circles {
         width: 200px;
+    }
+    .circles.circRight {
+        right: -100px;
+    }
+    .circles.circLeft {
+        left: -100px;
     }
 
     .prog_sec .inner .item {

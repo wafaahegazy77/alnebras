@@ -3548,6 +3548,9 @@ a:hover .filter-gray {
   background: url(../images/icons/file-circle.svg) no-repeat center;
 }
 
+.joinForm_sec .secImg {
+  object-fit: contain;
+}
 .joinForm_sec .form_box {
   background-color: #fff;
   border-radius: 30px;
@@ -3809,6 +3812,7 @@ a:hover .filter-gray {
   }
   .header::before {
     width: 100%;
+    background-image: linear-gradient(to right, #B2D7B8, rgba(255, 255, 255, 0.8196078431));
   }
   .header .txt_box .title,
   .pg_header .txt_box h2 {
@@ -3908,6 +3912,12 @@ a:hover .filter-gray {
   }
   .circles {
     width: 200px;
+  }
+  .circles.circRight {
+    right: -100px;
+  }
+  .circles.circLeft {
+    left: -100px;
   }
   .prog_sec .inner .item {
     height: 200px;
